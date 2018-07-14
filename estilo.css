@@ -1,15 +1,17 @@
 body{
     margin: 0;
     width: 100%;
-    height: 100%;
+    height: 1   00%;
     
 }
 
 header{
     width: 100%;
-    height: 10px;
-    background-color: #2ccb6f;
+    height: 100px;
+    background-color: rgb(62, 64, 149);
     margin: 0;
+    display: flex;
+
 }
 
 .Imagem-de-fundo{
@@ -32,56 +34,65 @@ header{
 article{
     display: flex;
     height: 100%;
-    width: 67%;
+    width: 80%;
     margin: 0;
     align-items: center;
-    justify-content: center;
+    justify-content: flex-end;
     position: relative;
+
 }
 .textobanner{
     position: relative;
-    margin: 0;
-    height: 50%;
-    left: 45px;
+    margin-top: 10px;
     width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+
 }
-
-
-.imagem-mao{
-    position: absolute;
-    height: 100%;
-    width: 100%;
-}
-
-.imagem-mao img{
-    position: absolute;
-    height: 84%;
-    bottom: 0;
-    right: 0;
-
+span{
+    color: rgb(248, 158,50);
+    font-weight: bold;
+    font-size: 26pt;
 }
 
 .textobanner h1{
-    font-family: 'Pacifico', cursive;
-    color: white;
+    font-family: 'Comfortaa', cursive;
+    color: black;
     margin:0;
-    font-weight: 100;
+    font-weight: bold;
     font-size: 37pt;
-}
+    justify-content: flex-start
 
-.textobanner p{
+}
+.textobanner h2{
     font-family: 'Roboto', sans-serif;
-    color: white;
-    width: 46%;
-    font-size: 16pt;
+    color: black);
+    margin:0;
+    font-weight: bold;
+    font-size: 24pt;
+    justify-content: flex-end;
+    
+
 }
 
-
-.icones{
+.textobanner2{
+    position: relative;
+    margin-top: 0px;
+    width: 100%;
     display: flex;
-    justify-content: space-between;
-    width: 19%;
+
+
+
+
 }
+.textobanner2 p{
+    font-family: 'Roboto', sans-serif;
+    color: black;
+    font-size: 24pt;
+    justify-content: center;
+}
+
 
 .icones1{
     background-color: rgba(0,0,0, 0.4);
