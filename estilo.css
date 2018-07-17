@@ -203,6 +203,7 @@ button{
 
 .carinha{
     height: 40vh;
+    overflow: hidden;
 }
 .carinha img{
     height: 100%;
@@ -281,6 +282,7 @@ font-size: 30pt;
 
 font-size: 17pt;
 }
+
 footer p{
 
     font-size: 14pt;
