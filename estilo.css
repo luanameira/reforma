@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    overflow-x:hidden;
 }
 
 body{
@@ -64,7 +65,6 @@ span{
 .textobanner h1{
     font-family: 'Comfortaa', cursive;
     color: black;
-
     font-weight: bold;
     font-size: 30pt;
     justify-content: flex-start
@@ -225,6 +225,69 @@ footer p{
     color: black;
 }
 
-@media{
+@media (max-width: 954px){
+    
+.textobanner h2{
+            font-size: 14pt;
+}
+            
+span{
+    font-size: 15pt;
+}
+.textobanner2 p{
+    
+    font-size: 15pt;
+}
+.textobanner h1{
+    
+    font-size: 25pt;
 
+}
+@media (max-width: 954px){
+
+    header{
+        height: 100px; 
+        flex-direction: column;
+        
+        
+    
+    }
+    .menu a{
+        display:none;
+    }
+    .section2{
+       
+        flex-direction: column;
+        justify-content: space-evenly;
+        height: 500px;
+    }
+    .Imagem-de-fundo {
+        background-color: rgb(248, 158,50);
+    
+    }
+    .banner{
+        display:none;
+    }
+.textobanner2 p{
+
+font-size: 30pt;
+}
+#botoes input{
+    
+    width: 200px;
+
+}
+.textobanner h1{
+
+font-size: 17pt;
+}
+footer p{
+
+    font-size: 14pt;
+}
+footer{
+    
+    height: 60px;
+    flex-direction: column;
+    flex-wrap: wrap;
 }
